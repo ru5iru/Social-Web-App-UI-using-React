@@ -72,6 +72,10 @@ function App() {
             path: "/register",
             element: <Register />,
         },
+        {
+            path: "/profiles/:id",
+            element: <Profile />,
+        },
     ]);
 
     return (
